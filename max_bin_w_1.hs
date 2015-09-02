@@ -1,3 +1,6 @@
+--input 2 numbers (a,b), output number x in binary, a<x<b and x the binary with
+--the most digits 1 in range a....b
+
 mostones :: [Int] -> [Int] ->[Int]
 mostones2 :: [Int] -> [Int] ->[Int]
 check :: [Int]->[Int]
