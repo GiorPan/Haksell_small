@@ -1,6 +1,6 @@
 --give 2 graphs ([(1,3),(3,5),(5,1),(5,7)] for example) and check if they
 --are isomorphic "NOT COMPLETED"
---example run "isomorphic [(1,3),(3,5),(5,1),(5,7)] [(4,5),(2,3),(3,4),(4,2)] --> True"
+--example execution "isomorphic [(1,3),(3,5),(5,1),(5,7)] [(4,5),(2,3),(3,4),(4,2)] --> True"
 
 isomorphic ::[(Int,Int)]->[(Int,Int)]->Bool
 ch_edges ::[(Int,Int)]->[(Int,Int)]->Bool
