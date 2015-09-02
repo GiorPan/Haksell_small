@@ -1,5 +1,6 @@
 --input 2 binary numbers (a,b), output binary number x, where x is the smallest number with
 --the most digits (1) in range a....b
+--example run "mostones [1] [1,0,1,0] -->[1,1,1]"
 
 mostones :: [Int] -> [Int] ->[Int]
 mostones2 :: [Int] -> [Int] ->[Int]
